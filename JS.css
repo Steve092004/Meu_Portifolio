@@ -1,0 +1,52 @@
+#banner5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px 0 0px 0;
+    width: 100%;
+    height: 577px;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.6s;
+    background: linear-gradient(to bottom,#000000,#F5DE19,#000000);
+}
+
+#text5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    font-size: 25px;
+}
+
+#imageJS {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 40%;
+    filter: drop-shadow(9px 15px 10px #000000);
+}
+
+#imageJS img {
+    width: 200px;
+}
+
+
+#banner5.display {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+#nav.display4 {
+    background: #F5DE19;
+    transition: all 0.6s;
+}
+
+#nav.display4 a {
+    border: none;
+    color: black;
+}

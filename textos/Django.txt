@@ -1,0 +1,1 @@
+Além do Front-End, também possuo conhecimento no Back-End de uma aplicação com Python utilizando o Framework Django juntamente a um banco de dados.
